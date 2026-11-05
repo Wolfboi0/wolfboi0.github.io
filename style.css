@@ -1,0 +1,20 @@
+html {background-color: #ecf7e8;
+     font-family: sans;}
+
+.sneak {font-size: 14px;
+      color: #787878;
+      font-style: italic;}
+li {font-style: italic;}
+
+h1 {text-align: center;
+  font-family: cursive;}
+
+h3 {text-align: center;
+  font-family: cursive;
+   color: darkseagreen}
+.or {font-style: bold;
+   color: orange;}
+.pu {font-style: bold;
+   color: purple;}
+.gr {font-style: bold;
+   color: green;}
