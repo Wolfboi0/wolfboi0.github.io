@@ -49,10 +49,7 @@
 }
 .lastfm {
     width: 400px;      
-    height: 800px;
-    position: absolute;
-    top: 55px;
-    left: 1000px;
+    height: 650px;
     border: none;
     background: transparent;
     transform: scale(0.8);  
@@ -63,12 +60,21 @@
     vertical-align: top;
 }
     
+.main-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+}
     </style>
   </head>
   <body>
     <br>
     <br>
     <br>
+    <div class="main-content">
+        <div>
     <img src="https://wolfboi0.github.io/whitelogo.svg" width="400">
 
     <h1>wolfboi0 home/portfolio :3</h1>
@@ -99,14 +105,15 @@
   </a>
 
 </div>
-    
+    <p> well thats all from me, have a nice day! :3
+    <img class="texticon" src="https://wolfboi0.github.io/boogie.gif" height="18"> </p>
+    </div>
   <iframe
   src="https://wolfboi0.github.io/lastfm-widget/"
-  class="lastfm">
+  class="lastfm" style="position: relative; left: 90px;">
 </iframe>
+    </div>
     
-    <p>well thats all from me, have a nice day! :3
-    <img class="texticon" src="https://wolfboi0.github.io/boogie.gif" height="18">
-    </p>
+   
  </body>
 </html>
