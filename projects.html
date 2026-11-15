@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WolfBoi0 - Projects</title>
+
+    <link rel="icon" type="image/svg+xml"
+    href="https://wolfboi0.github.io/resources/favicon.svg">
+
+    <!-- Google Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        html {
+            background-image: url('https://wolfboi0.github.io/resources/subpage-background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: "Google Sans", sans-serif;
+            color: white;
+        }
+
+        body {
+            margin: 40px;
+            padding-bottom: 50px;
+        }
+
+        /* Header */
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header img {
+            width: 300px;
+            max-width: 100%;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        .container {
+            max-width: 1000px;
+        }
+
+        .panel {
+            background: #252535BF;
+            border: 1px solid #ffffff20;
+            border-radius: 12px;
+            padding: 22px;
+            margin-bottom: 18px;
+            backdrop-filter: blur(4px);
+        }
+
+        .panel h2 {
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+
+        .panel p {
+            line-height: 1.6;
+        }
+        
+        .quote {
+            font-style: italic;
+            color: #ffffff99;
+        }
+
+        .projects {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding: 5px 5px 15px;
+            scroll-behavior: smooth;
+            scroll-snap-type: x proximity;
+        }
+
+        .project {
+            background: #151521AA;
+            border: 1px solid #ffffff20;
+            border-radius: 10px;
+            padding: 15px;
+            transition: 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            flex: 0 0 240px;
+            min-width: 0;
+            scroll-snap-align: start;
+        }
+
+        .project:hover {
+            background: #55557799;
+            transform: translateY(-4px);
+        }
+
+        .projectthumb {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 7px;
+        }
+        
+        .albumthumb {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 7px;
+        }
+
+        .project h3 {
+            margin-top: 10px;
+            margin-bottom: -13px;
+        }
+
+        .project p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 0px;
+        }
+
+        a {
+            color: #b9b9ff;
+            text-decoration: none;
+            font-style: italic;
+            margin-top: auto;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    /* Scrollbar */
+
+        .projects::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .projects::-webkit-scrollbar-track {
+            background: #151521AA;
+            border-radius: 10px;
+        }
+
+        .projects::-webkit-scrollbar-thumb {
+            background: #555577;
+            border-radius: 10px;
+        }
+
+        .projects::-webkit-scrollbar-thumb:hover {
+            background: #7777AA;
+        }
+
+        .back 
+            {
+            display: inline-block;
+            padding: 12px 18px;
+            background: #252535BF;
+            backdrop-filter: blur(4px);
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            transition: 0.2s;
+            margin-top: 10px;
+        }
+
+        .back:hover {
+            background: #55557799;
+            transform: translateX(-5px);
+        }
+
+        /* Mobile */
+
+        @media (max-width: 600px) {
+            body {
+                margin: 20px;
+            }
+
+            .project {
+                flex-basis: 210px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+
+        <img src="https://wolfboi0.github.io/resources/whitelogo.svg"
+        alt="WolfBoi0 logo">
+
+        <h1>my projects! :3</h1>
+
+        <p>pretty much everything ive made, and ever will make organized in chronological order.</p>
+        <p class="quote"> get digging bomby! the project youre looking for is probably underground."</p>
+
+    </div>
+
+    <div class="container">
+
+        <!-- programs -->
+
+        <div class="panel">
+
+            <h2>programs, games, & websites</h2>
+
+            <div class="projects">
+
+                <div class="project">
+
+                    
+
+                    <img class="projectthumb"
+                    src="https://img.itch.zone/aW1hZ2UvNDI1NzQ4MC8yNTM2NjM0OC5wbmc=/original/am9Zoo.png"
+                    alt="Screensaviors preview">
+
+                    <h3>Screensaviors</h3>
+                    <p>2/2/2026</p>
+                    
+                    <p>
+                        a collection of screensavers with background
+                        noise, useful if you're noise dependent
+                        when sleeping!
+                    </p>
+
+                    <a href="https://wolfboi0.itch.io/screensaviors"
+                    target="_blank" rel="noopener noreferrer">
+                        view project →
+                    </a>
+
+                </div>
+
+                <div class="project">
+
+
+                    <img class="projectthumb"
+                    src="https://wolfboi0.github.io/resources/mainpage-background.png"
+                    alt="WolfBoi0 website preview">
+
+                    <h3>wolfboi0.github.io</h3>
+                    <p>11/15/2026</p>
+                    <p>
+                        psst.. hey you may not believe this... but youre on this website right now.. its true! as youre reading this!!
+                    </p>
+
+                    <a href="https://wolfboi0.github.io"
+                    target="_blank" rel="noopener noreferrer">
+                        view project →
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- music -->
+
+        <div class="panel">
+
+            <h2>music & audio</h2>
+
+            <div class="projects">
+                <div class="project">
+
+
+                    <img class="albumthumb"
+                    src="https://f4.bcbits.com/img/a2791943573_10.jpg"
+                    alt="Neon Spill preview">
+
+                    <h3>Neon Spill</h3>
+                    <p>5/17/2026</p>
+                    <p>
+                        my first album i made!! its alright i guess for a beginner who didnt know what he was doing.
+                    </p>
+
+                    <a href="https://wolfboi0.bandcamp.com/album/neon-spill"
+                    target="_blank" rel="noopener noreferrer">
+                        view album →
+                    </a>
+
+                </div>
+            
+            </div>
+        </div>
+
+
+        <!-- art (WIP)
+
+        <div class="panel">
+
+            <h2>digital drawings & videos</h2>
+
+
+            <div class="projects">
+
+            
+
+                
+
+
+            </div>
+        </div>
+
+-->
+        <!-- Footer -->
+
+        <p>thanks for checking out my creations! :3</p>
+
+        <a class="back" href="index.html">
+            ← back to homepage
+        </a>
+        
+    </div>
+
+</body>
+</html>
